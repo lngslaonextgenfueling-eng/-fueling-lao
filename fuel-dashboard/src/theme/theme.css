@@ -1,0 +1,63 @@
+/* Shared design tokens — kept visually consistent with the Customer and
+   Staff apps (same color family), expressed as CSS variables for the web. */
+
+:root {
+  --color-bg: #0b1220;
+  --color-bg-elevated: #121b2e;
+  --color-card: #182238;
+  --color-card-alt: #1e2a45;
+  --color-border: #27344f;
+  --color-primary: #22c55e;
+  --color-primary-dark: #15803d;
+  --color-accent: #facc15;
+  --color-blue: #3b82f6;
+  --color-danger: #ef4444;
+  --color-warning: #f97316;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  --sidebar-width: 240px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: 'Noto Sans Lao', 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--radius-pill);
+}

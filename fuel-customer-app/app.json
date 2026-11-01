@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "LNGS Fueling",
+    "slug": "fuel-customer-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0F172A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "ນຳໃຊ້ຕຳແໜ່ງເພື່ອຊອກຫາປໍ້ານ້ຳມັນທີ່ໃກ້ທີ່ສຸດ."
+      },
+      "bundleIdentifier": "la.lngs.fueling.customer"
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "la.lngs.fueling.customer",
+      "versionCode": 1
+    },
+    "scheme": "lngsfuel",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "ນຳໃຊ້ຕຳແໜ່ງເພື່ອຊອກຫາປໍ້ານ້ຳມັນທີ່ໃກ້ທີ່ສຸດ."
+        }
+      ]
+    ]
+  }
+}

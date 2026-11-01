@@ -1,0 +1,4 @@
+project_id = "lngs-fueling"
+
+[functions.payment-webhook]
+verify_jwt = false

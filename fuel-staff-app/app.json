@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "LNGS Staff",
+    "slug": "fuel-staff-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0F172A"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "ອະນຸຍາດໃຫ້ໃຊ້ກ້ອງເພື່ອສະແກນ QR Code ຂອງລູກຄ້າ."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "ອະນຸຍາດໃຫ້ໃຊ້ກ້ອງເພື່ອສະແກນ QR Code ຂອງລູກຄ້າ."
+      },
+      "bundleIdentifier": "la.lngs.fueling.staff"
+    },
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "la.lngs.fueling.staff",
+      "versionCode": 1
+    }
+  }
+}
